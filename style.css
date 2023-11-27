@@ -82,7 +82,7 @@ a{
 }
 
 .btn:hover{
-    box-shadow: rgba(0, 0, 0, 0.014) 0px 9px 9px;
+    box-shadow:var(--primaryIconColor) 0px 1px 4px 1px;
 }
 
 /* Titles */
@@ -223,6 +223,11 @@ nav ul li a{
     margin: 0 auto;
 }
 
+.service:hover {
+    border-color: #000;
+    box-shadow: var(--primaryIconColor) 0px 3px 5px 1px;
+}
+
 .services-title{
     text-align: center;
 }
@@ -262,6 +267,10 @@ nav ul li a{
     border-radius: var(--itemBorderRadius);
     overflow: hidden;
     border: 6px solid var(--borderColor);
+}
+
+.portofolios:hover {
+    box-shadow: var(--primaryIconColor) 0px 5px 3px 1px;
 }
 
 .portofolio-cover {
